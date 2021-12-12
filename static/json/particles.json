@@ -22,7 +22,7 @@
       "url": "https://github.com/VincentGarreau/particles.js/issues"
     },"particles": {
         "number": {
-          "value": 100
+          "value": 25
         }
     }
   }
