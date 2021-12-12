@@ -11,8 +11,16 @@
 </head>
 <body>
     <div id="particles-js">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+      particlesJS.load('particles-js', '../static/json/particles.json',
+        function() {
+          console.log('[LOG] - Loaded particles.json')
+        }
+      )
+    </script>
         <a href="/" class="logo">
-            <img src="../../static/img/logo.png" alt="logo.png">
+            <img src="../static/img/logo.png" alt="logo.png">
         </a>
         <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
         <label for="menu-icon"></label>
