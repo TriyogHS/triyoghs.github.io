@@ -1,0 +1,62 @@
+/* This file includes class(s) navbar, navbar*/
+/* Moblie / Screen size implementation will be added after prototype material is achived*/
+/* Propper on desktops */
+
+/* Styling starts */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    height:10vh;
+}
+
+.navbar .elements a { 
+    color: #fff;
+}
+
+.navbar .logo img{
+    height: 8vh;
+    width: 7vh;
+}
+
+.navbar .logo .text{
+    display: inline-block;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: lem;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar .menu li:hover {
+    background-color: #E29EDC;
+    transition: 1.2s ease-in-out;
+}
+
+.navbar .menu li {
+    list-style: none;
+    padding: 5px 14px;
+}
+
+.navbar .search img {
+    width: 26px;
+    height: 26px;
+    display: block;
+}
+
+@media only screen and (max-width: 1370px) {
+    .navbar .menu li {
+        display: none;
+    }
+} @media only screen and (max-width: 350) {
+    /* Very unprobable check*/
+    .navbar .logo .text {
+        display: hidden;
+    }
+}
